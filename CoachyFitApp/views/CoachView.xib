@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CoachView" customModule="CoachyFitApp" customModuleProvider="target">
+            <connections>
+                <outlet property="ageLabel" destination="i0c-hc-Vid" id="Qjo-W4-Cpo"/>
+                <outlet property="coachNameLabel" destination="q09-x3-HaS" id="5m7-fm-2tF"/>
+                <outlet property="coachProfileImage" destination="7J2-R6-gk4" id="rz7-gs-uUh"/>
+                <outlet property="seniorityLabel" destination="7Tr-pu-4xe" id="cBK-6I-KDu"/>
+                <outlet property="specializeLabel" destination="vGm-Tu-kUD" id="aKK-mh-d1t"/>
+                <outlet property="view" destination="FWd-hl-rRf" id="Vz5-j8-opU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FWd-hl-rRf">
+                    <rect key="frame" x="0.0" y="44" width="414" height="156"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="באנר העלאת תמונת פרופיל" translatesAutoresizingMaskIntoConstraints="NO" id="7J2-R6-gk4">
+                            <rect key="frame" x="286" y="8" width="120" height="120"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="120" id="en7-vV-HlD"/>
+                                <constraint firstAttribute="width" constant="120" id="fdy-Cp-WtK"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="מאמן מאז:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJn-VN-hBd">
+                            <rect key="frame" x="208" y="66" width="70" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="שם המאמן" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q09-x3-HaS" customClass="UILabelX" customModule="CoachyFitApp" customModuleProvider="target">
+                            <rect key="frame" x="8" y="8" width="398" height="21"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="shadowColorLayer">
+                                    <color key="value" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tr-pu-4xe">
+                            <rect key="frame" x="180" y="66" width="24" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="התמחויות:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4O-Xz-pqd">
+                            <rect key="frame" x="208" y="95" width="70" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="גיל:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9H-KB-dUT">
+                            <rect key="frame" x="254" y="37" width="24" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0c-hc-Vid">
+                            <rect key="frame" x="225.5" y="37" width="20.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="סוגי התמחויות" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGm-Tu-kUD">
+                            <rect key="frame" x="109.5" y="95" width="94.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92146831750000002" green="0.92162626979999995" blue="0.92145836349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="7J2-R6-gk4" firstAttribute="leading" secondItem="k4O-Xz-pqd" secondAttribute="trailing" constant="8" id="1Ya-6b-ljk"/>
+                        <constraint firstItem="q09-x3-HaS" firstAttribute="leading" secondItem="FWd-hl-rRf" secondAttribute="leading" constant="8" id="C9l-AK-Rf7"/>
+                        <constraint firstItem="X9H-KB-dUT" firstAttribute="top" secondItem="q09-x3-HaS" secondAttribute="bottom" constant="8" id="Cmq-4h-6rU"/>
+                        <constraint firstItem="7J2-R6-gk4" firstAttribute="leading" secondItem="gJn-VN-hBd" secondAttribute="trailing" constant="8" id="GRs-K7-l4I"/>
+                        <constraint firstItem="vGm-Tu-kUD" firstAttribute="top" secondItem="7Tr-pu-4xe" secondAttribute="bottom" constant="8" id="IAV-XG-HB5"/>
+                        <constraint firstItem="7J2-R6-gk4" firstAttribute="leading" secondItem="gJn-VN-hBd" secondAttribute="trailing" constant="8" id="OAL-ps-pcx"/>
+                        <constraint firstItem="k4O-Xz-pqd" firstAttribute="top" secondItem="gJn-VN-hBd" secondAttribute="bottom" constant="8" id="Ps4-T2-7KB"/>
+                        <constraint firstItem="7Tr-pu-4xe" firstAttribute="top" secondItem="i0c-hc-Vid" secondAttribute="bottom" constant="8" id="Uka-cM-5gZ"/>
+                        <constraint firstItem="q09-x3-HaS" firstAttribute="top" secondItem="FWd-hl-rRf" secondAttribute="top" constant="8" id="UuB-7o-vWX"/>
+                        <constraint firstItem="7J2-R6-gk4" firstAttribute="top" secondItem="FWd-hl-rRf" secondAttribute="top" constant="8" id="cw5-sc-Odx"/>
+                        <constraint firstItem="X9H-KB-dUT" firstAttribute="leading" secondItem="i0c-hc-Vid" secondAttribute="trailing" constant="8" id="gu1-ub-qNb"/>
+                        <constraint firstItem="i0c-hc-Vid" firstAttribute="top" secondItem="q09-x3-HaS" secondAttribute="bottom" constant="8" id="gz7-sG-Kk2"/>
+                        <constraint firstItem="k4O-Xz-pqd" firstAttribute="leading" secondItem="vGm-Tu-kUD" secondAttribute="trailing" constant="4" id="h94-sa-6Ln"/>
+                        <constraint firstAttribute="trailing" secondItem="q09-x3-HaS" secondAttribute="trailing" constant="8" id="hG9-bF-FQD"/>
+                        <constraint firstAttribute="trailing" secondItem="7J2-R6-gk4" secondAttribute="trailing" constant="8" id="hZS-8E-oUG"/>
+                        <constraint firstItem="7J2-R6-gk4" firstAttribute="leading" secondItem="X9H-KB-dUT" secondAttribute="trailing" constant="8" id="jQY-73-cnC"/>
+                        <constraint firstItem="gJn-VN-hBd" firstAttribute="leading" secondItem="7Tr-pu-4xe" secondAttribute="trailing" constant="4" id="sk3-4Q-nFj"/>
+                        <constraint firstItem="gJn-VN-hBd" firstAttribute="top" secondItem="X9H-KB-dUT" secondAttribute="bottom" constant="8" id="y9b-36-abW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="FWd-hl-rRf" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="9Lg-lM-fzK"/>
+                <constraint firstItem="FWd-hl-rRf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="D3B-9b-ToL"/>
+                <constraint firstItem="FWd-hl-rRf" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="NpB-ye-2pp"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="FWd-hl-rRf" secondAttribute="trailing" id="Wpn-p5-jRF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="FWd-hl-rRf" secondAttribute="bottom" id="Xed-LN-gzo"/>
+                <constraint firstItem="FWd-hl-rRf" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="bJe-rd-jaP"/>
+                <constraint firstItem="FWd-hl-rRf" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="cO3-lI-3LE"/>
+                <constraint firstItem="FWd-hl-rRf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="hzL-xl-Bjn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="131.8840579710145" y="-272.54464285714283"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="באנר העלאת תמונת פרופיל" width="2400" height="2400"/>
+    </resources>
+</document>

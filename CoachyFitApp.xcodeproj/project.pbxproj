@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040CF2AA2497DABD005E17A6 /* loading2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 040CF2A92497D9F6005E17A6 /* loading2.mp4 */; };
+		040CF2AC24990BA2005E17A6 /* arad-bit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 040CF2AB24990BA2005E17A6 /* arad-bit.mp3 */; };
+		0410C106246C8FF400CF7C6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C105246C8FF400CF7C6C /* AppDelegate.swift */; };
+		0410C108246C8FF400CF7C6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C107246C8FF400CF7C6C /* SceneDelegate.swift */; };
+		0410C10D246C8FF400CF7C6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410C10B246C8FF400CF7C6C /* Main.storyboard */; };
+		0410C10F246C8FF800CF7C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0410C10E246C8FF800CF7C6C /* Assets.xcassets */; };
+		0410C112246C8FF800CF7C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410C110246C8FF800CF7C6C /* LaunchScreen.storyboard */; };
+		0410C11D246C903400CF7C6C /* Coach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C11C246C903400CF7C6C /* Coach.swift */; };
+		0410C125246C97A300CF7C6C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0410C124246C97A200CF7C6C /* GoogleService-Info.plist */; };
+		0410C127246C97C600CF7C6C /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C126246C97C600CF7C6C /* FirebaseModel.swift */; };
+		0410C129246C984F00CF7C6C /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C128246C984F00CF7C6C /* Video.swift */; };
+		0410C12B246CA0E000CF7C6C /* HUD+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C12A246CA0E000CF7C6C /* HUD+extensions.swift */; };
+		0410C12F246CB3CA00CF7C6C /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410C12E246CB3CA00CF7C6C /* Intro.storyboard */; };
+		0410C131246CB41D00CF7C6C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C130246CB41D00CF7C6C /* IntroViewController.swift */; };
+		0410C133246CB45F00CF7C6C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C132246CB45F00CF7C6C /* Router.swift */; };
+		0410C135246CB83800CF7C6C /* TrainingTypesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C134246CB83800CF7C6C /* TrainingTypesTableViewController.swift */; };
+		0410C137246CB88C00CF7C6C /* TrainingTypesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C136246CB88C00CF7C6C /* TrainingTypesTableViewCell.swift */; };
+		0410C139246CB99F00CF7C6C /* CoachesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C138246CB99F00CF7C6C /* CoachesTableViewController.swift */; };
+		0410C13B246CBA4C00CF7C6C /* CoachTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C13A246CBA4C00CF7C6C /* CoachTableViewCell.swift */; };
+		0410C13D246CC9C700CF7C6C /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C13C246CC9C700CF7C6C /* VideoHelper.swift */; };
+		0410C13F246CCE5900CF7C6C /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C13E246CCE5900CF7C6C /* SplitViewController.swift */; };
+		0410C149246CDA7800CF7C6C /* CoachPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C148246CDA7800CF7C6C /* CoachPageViewController.swift */; };
+		0410C151246DBB5200CF7C6C /* intro1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 0410C14D246DBB5200CF7C6C /* intro1.mov */; };
+		0410C152246DBB5200CF7C6C /* intro2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 0410C14E246DBB5200CF7C6C /* intro2.mov */; };
+		0410C153246DBB5200CF7C6C /* intro3.mov in Resources */ = {isa = PBXBuildFile; fileRef = 0410C14F246DBB5200CF7C6C /* intro3.mov */; };
+		0410C154246DBB5200CF7C6C /* the-rookie-ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0410C150246DBB5200CF7C6C /* the-rookie-ringtone.mp3 */; };
+		0410C159246FEC2F00CF7C6C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C158246FEC2F00CF7C6C /* SignUpViewController.swift */; };
+		0410C15D2471452C00CF7C6C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410C15C2471452C00CF7C6C /* User.swift */; };
+		0410C15F24714B0300CF7C6C /* CoachInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410C15E24714B0300CF7C6C /* CoachInfo.storyboard */; };
+		04A8A5382475F6EE006D4D56 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A5372475F6EE006D4D56 /* RegisterViewController.swift */; };
+		04A8A53D24792F49006D4D56 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A53C24792F49006D4D56 /* UIImageViewX.swift */; };
+		04A8A5412480EAFB006D4D56 /* VideoForCoachCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A5402480EAFB006D4D56 /* VideoForCoachCollectionViewCell.swift */; };
+		04A8A54324822121006D4D56 /* CoachView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A8A54224822121006D4D56 /* CoachView.xib */; };
+		04A8A5452482223B006D4D56 /* CoachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A5442482223B006D4D56 /* CoachView.swift */; };
+		04A8A547248227F4006D4D56 /* CoachForClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A546248227F4006D4D56 /* CoachForClientViewController.swift */; };
+		04A8A55124851F0C006D4D56 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A55024851F0C006D4D56 /* TabBarViewController.swift */; };
+		04A8A5532489CC57006D4D56 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A5522489CC57006D4D56 /* UIButtonX.swift */; };
+		04A8A5562489D9EE006D4D56 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 04A8A5552489D9EE006D4D56 /* Alamofire */; };
+		04A8A558248AD1AD006D4D56 /* AddVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A557248AD1AD006D4D56 /* AddVideoViewController.swift */; };
+		04A8A55A248DCE53006D4D56 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A559248DCE53006D4D56 /* UILabelX.swift */; };
+		04A8A55C248DCFBF006D4D56 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A55B248DCFBF006D4D56 /* UITextFieldX.swift */; };
+		ACCC66C93209D938F863D1C9 /* Pods_CoachyFitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A82A79F577B0444F79D46E /* Pods_CoachyFitApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040CF2A92497D9F6005E17A6 /* loading2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loading2.mp4; sourceTree = "<group>"; };
+		040CF2AB24990BA2005E17A6 /* arad-bit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "arad-bit.mp3"; sourceTree = "<group>"; };
+		0410C102246C8FF400CF7C6C /* CoachyFitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoachyFitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0410C105246C8FF400CF7C6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0410C107246C8FF400CF7C6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0410C10C246C8FF400CF7C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0410C10E246C8FF800CF7C6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0410C111246C8FF800CF7C6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0410C113246C8FF800CF7C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0410C11C246C903400CF7C6C /* Coach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coach.swift; sourceTree = "<group>"; };
+		0410C124246C97A200CF7C6C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0410C126246C97C600CF7C6C /* FirebaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModel.swift; sourceTree = "<group>"; };
+		0410C128246C984F00CF7C6C /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		0410C12A246CA0E000CF7C6C /* HUD+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HUD+extensions.swift"; sourceTree = "<group>"; };
+		0410C12E246CB3CA00CF7C6C /* Intro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intro.storyboard; sourceTree = "<group>"; };
+		0410C130246CB41D00CF7C6C /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		0410C132246CB45F00CF7C6C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0410C134246CB83800CF7C6C /* TrainingTypesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTypesTableViewController.swift; sourceTree = "<group>"; };
+		0410C136246CB88C00CF7C6C /* TrainingTypesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTypesTableViewCell.swift; sourceTree = "<group>"; };
+		0410C138246CB99F00CF7C6C /* CoachesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachesTableViewController.swift; sourceTree = "<group>"; };
+		0410C13A246CBA4C00CF7C6C /* CoachTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachTableViewCell.swift; sourceTree = "<group>"; };
+		0410C13C246CC9C700CF7C6C /* VideoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
+		0410C13E246CCE5900CF7C6C /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		0410C148246CDA7800CF7C6C /* CoachPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachPageViewController.swift; sourceTree = "<group>"; };
+		0410C14D246DBB5200CF7C6C /* intro1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = intro1.mov; sourceTree = "<group>"; };
+		0410C14E246DBB5200CF7C6C /* intro2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = intro2.mov; sourceTree = "<group>"; };
+		0410C14F246DBB5200CF7C6C /* intro3.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = intro3.mov; sourceTree = "<group>"; };
+		0410C150246DBB5200CF7C6C /* the-rookie-ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "the-rookie-ringtone.mp3"; sourceTree = "<group>"; };
+		0410C158246FEC2F00CF7C6C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0410C15C2471452C00CF7C6C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0410C15E24714B0300CF7C6C /* CoachInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CoachInfo.storyboard; sourceTree = "<group>"; };
+		04A8A5372475F6EE006D4D56 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		04A8A53C24792F49006D4D56 /* UIImageViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		04A8A5402480EAFB006D4D56 /* VideoForCoachCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoForCoachCollectionViewCell.swift; sourceTree = "<group>"; };
+		04A8A54224822121006D4D56 /* CoachView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoachView.xib; sourceTree = "<group>"; };
+		04A8A5442482223B006D4D56 /* CoachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachView.swift; sourceTree = "<group>"; };
+		04A8A546248227F4006D4D56 /* CoachForClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachForClientViewController.swift; sourceTree = "<group>"; };
+		04A8A55024851F0C006D4D56 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		04A8A5522489CC57006D4D56 /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		04A8A557248AD1AD006D4D56 /* AddVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVideoViewController.swift; sourceTree = "<group>"; };
+		04A8A559248DCE53006D4D56 /* UILabelX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		04A8A55B248DCFBF006D4D56 /* UITextFieldX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		67A82A79F577B0444F79D46E /* Pods_CoachyFitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoachyFitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91618A0001AA61877D8FC87F /* Pods-CoachyFitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachyFitApp.debug.xcconfig"; path = "Target Support Files/Pods-CoachyFitApp/Pods-CoachyFitApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C4A0C0B20F2EE4663CEDA992 /* Pods-CoachyFitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoachyFitApp.release.xcconfig"; path = "Target Support Files/Pods-CoachyFitApp/Pods-CoachyFitApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0410C0FF246C8FF400CF7C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCC66C93209D938F863D1C9 /* Pods_CoachyFitApp.framework in Frameworks */,
+				04A8A5562489D9EE006D4D56 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040CF2AD249BF99C005E17A6 /* coach */ = {
+			isa = PBXGroup;
+			children = (
+				0410C148246CDA7800CF7C6C /* CoachPageViewController.swift */,
+				0410C158246FEC2F00CF7C6C /* SignUpViewController.swift */,
+				04A8A55024851F0C006D4D56 /* TabBarViewController.swift */,
+				04A8A557248AD1AD006D4D56 /* AddVideoViewController.swift */,
+			);
+			path = coach;
+			sourceTree = "<group>";
+		};
+		0410C0F9246C8FF400CF7C6C = {
+			isa = PBXGroup;
+			children = (
+				0410C104246C8FF400CF7C6C /* CoachyFitApp */,
+				0410C103246C8FF400CF7C6C /* Products */,
+				A357B9396C95128F5CD66791 /* Pods */,
+				92131103C5868B775AE15932 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0410C103246C8FF400CF7C6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0410C102246C8FF400CF7C6C /* CoachyFitApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0410C104246C8FF400CF7C6C /* CoachyFitApp */ = {
+			isa = PBXGroup;
+			children = (
+				04A8A53B24792F10006D4D56 /* designableX */,
+				0410C14C246DBB5200CF7C6C /* intros */,
+				0410C12C246CB38700CF7C6C /* storyboards */,
+				0410C11B246C901B00CF7C6C /* views */,
+				0410C11A246C901100CF7C6C /* models */,
+				0410C119246C900400CF7C6C /* controllers */,
+				0410C105246C8FF400CF7C6C /* AppDelegate.swift */,
+				0410C107246C8FF400CF7C6C /* SceneDelegate.swift */,
+				0410C10B246C8FF400CF7C6C /* Main.storyboard */,
+				0410C10E246C8FF800CF7C6C /* Assets.xcassets */,
+				0410C110246C8FF800CF7C6C /* LaunchScreen.storyboard */,
+				0410C113246C8FF800CF7C6C /* Info.plist */,
+				0410C124246C97A200CF7C6C /* GoogleService-Info.plist */,
+			);
+			path = CoachyFitApp;
+			sourceTree = "<group>";
+		};
+		0410C119246C900400CF7C6C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				040CF2AD249BF99C005E17A6 /* coach */,
+				0410C130246CB41D00CF7C6C /* IntroViewController.swift */,
+				0410C134246CB83800CF7C6C /* TrainingTypesTableViewController.swift */,
+				0410C138246CB99F00CF7C6C /* CoachesTableViewController.swift */,
+				0410C13E246CCE5900CF7C6C /* SplitViewController.swift */,
+				04A8A5372475F6EE006D4D56 /* RegisterViewController.swift */,
+				04A8A546248227F4006D4D56 /* CoachForClientViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		0410C11A246C901100CF7C6C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0410C11C246C903400CF7C6C /* Coach.swift */,
+				0410C126246C97C600CF7C6C /* FirebaseModel.swift */,
+				0410C128246C984F00CF7C6C /* Video.swift */,
+				0410C12A246CA0E000CF7C6C /* HUD+extensions.swift */,
+				0410C132246CB45F00CF7C6C /* Router.swift */,
+				0410C13C246CC9C700CF7C6C /* VideoHelper.swift */,
+				0410C15C2471452C00CF7C6C /* User.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		0410C11B246C901B00CF7C6C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0410C136246CB88C00CF7C6C /* TrainingTypesTableViewCell.swift */,
+				0410C13A246CBA4C00CF7C6C /* CoachTableViewCell.swift */,
+				04A8A5402480EAFB006D4D56 /* VideoForCoachCollectionViewCell.swift */,
+				04A8A54224822121006D4D56 /* CoachView.xib */,
+				04A8A5442482223B006D4D56 /* CoachView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		0410C12C246CB38700CF7C6C /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0410C12E246CB3CA00CF7C6C /* Intro.storyboard */,
+				0410C15E24714B0300CF7C6C /* CoachInfo.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		0410C14C246DBB5200CF7C6C /* intros */ = {
+			isa = PBXGroup;
+			children = (
+				040CF2AB24990BA2005E17A6 /* arad-bit.mp3 */,
+				040CF2A92497D9F6005E17A6 /* loading2.mp4 */,
+				0410C14D246DBB5200CF7C6C /* intro1.mov */,
+				0410C14E246DBB5200CF7C6C /* intro2.mov */,
+				0410C14F246DBB5200CF7C6C /* intro3.mov */,
+				0410C150246DBB5200CF7C6C /* the-rookie-ringtone.mp3 */,
+			);
+			path = intros;
+			sourceTree = "<group>";
+		};
+		04A8A53B24792F10006D4D56 /* designableX */ = {
+			isa = PBXGroup;
+			children = (
+				04A8A53C24792F49006D4D56 /* UIImageViewX.swift */,
+				04A8A5522489CC57006D4D56 /* UIButtonX.swift */,
+				04A8A559248DCE53006D4D56 /* UILabelX.swift */,
+				04A8A55B248DCFBF006D4D56 /* UITextFieldX.swift */,
+			);
+			path = designableX;
+			sourceTree = "<group>";
+		};
+		92131103C5868B775AE15932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67A82A79F577B0444F79D46E /* Pods_CoachyFitApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A357B9396C95128F5CD66791 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91618A0001AA61877D8FC87F /* Pods-CoachyFitApp.debug.xcconfig */,
+				C4A0C0B20F2EE4663CEDA992 /* Pods-CoachyFitApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0410C101246C8FF400CF7C6C /* CoachyFitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0410C116246C8FF800CF7C6C /* Build configuration list for PBXNativeTarget "CoachyFitApp" */;
+			buildPhases = (
+				E6AEE157C6B4AC24C2296193 /* [CP] Check Pods Manifest.lock */,
+				0410C0FE246C8FF400CF7C6C /* Sources */,
+				0410C0FF246C8FF400CF7C6C /* Frameworks */,
+				0410C100246C8FF400CF7C6C /* Resources */,
+				76DE23B194B477E9364A5E1D /* [CP] Embed Pods Frameworks */,
+				9DB7219713981BD6D3A41AF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoachyFitApp;
+			packageProductDependencies = (
+				04A8A5552489D9EE006D4D56 /* Alamofire */,
+			);
+			productName = CoachyFitApp;
+			productReference = 0410C102246C8FF400CF7C6C /* CoachyFitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0410C0FA246C8FF400CF7C6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					0410C101246C8FF400CF7C6C = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 0410C0FD246C8FF400CF7C6C /* Build configuration list for PBXProject "CoachyFitApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0410C0F9246C8FF400CF7C6C;
+			packageReferences = (
+				04A8A5542489D9EE006D4D56 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 0410C103246C8FF400CF7C6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0410C101246C8FF400CF7C6C /* CoachyFitApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0410C100246C8FF400CF7C6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040CF2AA2497DABD005E17A6 /* loading2.mp4 in Resources */,
+				0410C152246DBB5200CF7C6C /* intro2.mov in Resources */,
+				0410C153246DBB5200CF7C6C /* intro3.mov in Resources */,
+				0410C112246C8FF800CF7C6C /* LaunchScreen.storyboard in Resources */,
+				0410C154246DBB5200CF7C6C /* the-rookie-ringtone.mp3 in Resources */,
+				0410C10F246C8FF800CF7C6C /* Assets.xcassets in Resources */,
+				0410C15F24714B0300CF7C6C /* CoachInfo.storyboard in Resources */,
+				04A8A54324822121006D4D56 /* CoachView.xib in Resources */,
+				0410C151246DBB5200CF7C6C /* intro1.mov in Resources */,
+				0410C10D246C8FF400CF7C6C /* Main.storyboard in Resources */,
+				040CF2AC24990BA2005E17A6 /* arad-bit.mp3 in Resources */,
+				0410C125246C97A300CF7C6C /* GoogleService-Info.plist in Resources */,
+				0410C12F246CB3CA00CF7C6C /* Intro.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76DE23B194B477E9364A5E1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoachyFitApp/Pods-CoachyFitApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoachyFitApp/Pods-CoachyFitApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoachyFitApp/Pods-CoachyFitApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB7219713981BD6D3A41AF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoachyFitApp/Pods-CoachyFitApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoachyFitApp/Pods-CoachyFitApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoachyFitApp/Pods-CoachyFitApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AEE157C6B4AC24C2296193 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoachyFitApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0410C0FE246C8FF400CF7C6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A8A5412480EAFB006D4D56 /* VideoForCoachCollectionViewCell.swift in Sources */,
+				0410C12B246CA0E000CF7C6C /* HUD+extensions.swift in Sources */,
+				0410C135246CB83800CF7C6C /* TrainingTypesTableViewController.swift in Sources */,
+				0410C11D246C903400CF7C6C /* Coach.swift in Sources */,
+				04A8A547248227F4006D4D56 /* CoachForClientViewController.swift in Sources */,
+				0410C129246C984F00CF7C6C /* Video.swift in Sources */,
+				0410C13F246CCE5900CF7C6C /* SplitViewController.swift in Sources */,
+				0410C133246CB45F00CF7C6C /* Router.swift in Sources */,
+				04A8A53D24792F49006D4D56 /* UIImageViewX.swift in Sources */,
+				04A8A5452482223B006D4D56 /* CoachView.swift in Sources */,
+				0410C106246C8FF400CF7C6C /* AppDelegate.swift in Sources */,
+				0410C15D2471452C00CF7C6C /* User.swift in Sources */,
+				04A8A558248AD1AD006D4D56 /* AddVideoViewController.swift in Sources */,
+				0410C108246C8FF400CF7C6C /* SceneDelegate.swift in Sources */,
+				0410C139246CB99F00CF7C6C /* CoachesTableViewController.swift in Sources */,
+				04A8A55124851F0C006D4D56 /* TabBarViewController.swift in Sources */,
+				0410C13D246CC9C700CF7C6C /* VideoHelper.swift in Sources */,
+				04A8A5382475F6EE006D4D56 /* RegisterViewController.swift in Sources */,
+				0410C13B246CBA4C00CF7C6C /* CoachTableViewCell.swift in Sources */,
+				0410C159246FEC2F00CF7C6C /* SignUpViewController.swift in Sources */,
+				0410C127246C97C600CF7C6C /* FirebaseModel.swift in Sources */,
+				04A8A5532489CC57006D4D56 /* UIButtonX.swift in Sources */,
+				0410C149246CDA7800CF7C6C /* CoachPageViewController.swift in Sources */,
+				0410C137246CB88C00CF7C6C /* TrainingTypesTableViewCell.swift in Sources */,
+				04A8A55C248DCFBF006D4D56 /* UITextFieldX.swift in Sources */,
+				0410C131246CB41D00CF7C6C /* IntroViewController.swift in Sources */,
+				04A8A55A248DCE53006D4D56 /* UILabelX.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0410C10B246C8FF400CF7C6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0410C10C246C8FF400CF7C6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0410C110246C8FF800CF7C6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0410C111246C8FF800CF7C6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0410C114246C8FF800CF7C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0410C115246C8FF800CF7C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0410C117246C8FF800CF7C6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91618A0001AA61877D8FC87F /* Pods-CoachyFitApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3JRY47958;
+				INFOPLIST_FILE = CoachyFitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shonOhana.Coachy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0410C118246C8FF800CF7C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A0C0B20F2EE4663CEDA992 /* Pods-CoachyFitApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3JRY47958;
+				INFOPLIST_FILE = CoachyFitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shonOhana.Coachy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0410C0FD246C8FF400CF7C6C /* Build configuration list for PBXProject "CoachyFitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0410C114246C8FF800CF7C6C /* Debug */,
+				0410C115246C8FF800CF7C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0410C116246C8FF800CF7C6C /* Build configuration list for PBXNativeTarget "CoachyFitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0410C117246C8FF800CF7C6C /* Debug */,
+				0410C118246C8FF800CF7C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04A8A5542489D9EE006D4D56 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04A8A5552489D9EE006D4D56 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04A8A5542489D9EE006D4D56 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0410C0FA246C8FF400CF7C6C /* Project object */;
+}
